@@ -1,0 +1,63 @@
+
+body {
+    background-color: hsl(22, 28%, 78%);
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-family: fantasy;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
+    margin: 20px;
+    /* Usamos flex para alinear como en tu código original */
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Aplicamos las propiedades de tu footer al contenedor para hacer las columnas */
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    margin: 5px 0;
+}
+
+.enviar {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.pie {
+    font-size: 20px;
+}
